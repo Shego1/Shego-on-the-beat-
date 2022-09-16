@@ -2,6 +2,9 @@
 
 *{
 font-family: 'Be Vietnam Pro', sans-serif;
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
 }
 
 .encabezado{
@@ -42,6 +45,8 @@ section{
     
 .texto1{
     text-align: center;
+    padding: 4%;
+
 }
 
 .section1{
@@ -79,6 +84,7 @@ nav ul li a{
     padding: 0.7rem 1.6rem 0.7rem 1.6rem;
     -webkit-box-shadow: 4px 8px 29px -5px #616161; 
     box-shadow: 4px 8px 29px -5px #616161;
+    margin-left: 24%;
 }
 nav ul li a:hover{
     color: thistle;
@@ -108,7 +114,276 @@ margin-right: 8%;
 .a4 p{
     color: #B3B2B7;
     padding-bottom: 5%;
+    
 }
 .p1{
+    width: 60%;
+    padding-left: 6%;
+    margin-left: 36%;
+    padding-bottom: 2%;
+}
+.imagen{
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    width: 20%;
+
+}
+.carta3{
+    background-color:#FAFAFA;
+}
+.texto{
+    text-align: center;
+    margin-bottom: 10%;
+}
+h3{
+    text-align: center;
+}
+.boton3{
+    border-radius: 30px;
+    background-color: #8B48BF;
+    border: none;
+    color: white;
+    padding: 0.7rem 1.6rem 0.7rem 1.6rem;
+    -webkit-box-shadow: 4px 8px 29px -5px #616161; 
+    box-shadow: 4px 8px 29px -5px #616161;
+    display: flex;
+    align-self: center;
+}
+.divcopado{
+    display: flex;
+    flex-direction: row;
+}
+.section{
+    display: flex;
+    flex-direction: column
+}
+.boton3 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.divfinal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #8B48BF;
+    align-items: center;
+    height: 25vh;
+    margin-top: 5%;
+}
+.hh{
+    color: white;
+    align-items: center;
+    font-size: 28px;
     width: 20%;
 }
+ .boton5{
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 0.7rem 1.6rem 0.7rem 1.6rem;
+    -webkit-box-shadow: 4px 8px 29px -5px #616161; 
+    box-shadow: 4px 8px 29px -5px #616161;
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+ }   
+ footer{
+    display: flex;
+    flex-direction: column;
+    
+    background-color:#1E1E26;
+    align-items: center;
+    height: 25vh;
+   
+ }
+   .boton5 a{
+    text-decoration: none;
+    color:#a05ad6;
+   }
+   .boton3:hover{
+    cursor: pointer;
+    background-color: #a05ad6;
+    transition: all ease 110ms;
+   }
+   .boton5:hover{
+    cursor: pointer;
+    background-color: #cacaca;
+    transition: all ease 110ms;
+   }
+
+   .footer {
+    display: flex;
+    flex-flow: row wrap;
+    background: #1e1e26;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   .footerdiv1{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .footer div span{
+    color: white;
+    margin-left: 10px;
+   }
+   .footerli{
+    list-style:none;
+    margin-top: 17%;
+    font-size: 12px;
+   }
+   .footerlink{
+    text-decoration: none;
+    color: white;
+   }
+   .footerdiv2{
+display: flex;
+flex-direction: row; 
+margin-top: 35%;
+}
+.footeremail{
+    padding: 0 1.6rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    color: #a0a0a0;
+    text-align: left;
+}
+.footerboton{
+    padding: 0 1.6rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    background-color:#8B48BF;
+    color: white;
+    text-align: left;
+    border: none;
+} 
+.copyrights{
+    color: #8c8c94;
+  font-size: 0.9rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  align-self: flex-end;
+  padding-top: 3rem;
+}
+.footerboton:hover{
+    cursor: pointer;
+    background-color: #a05ad6;
+    transition: all ease 110ms;
+    color: #27272e;
+    transition: all ease 110ms;
+}
+.footerlink:hover{
+    color: #3b3b41;
+    transition: all ease 110ms;
+}
+.rayas{
+display: none;
+}
+@media screen and (max-width:700px) {
+    header nav{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    .rayas{
+        display: block ;
+    }
+    header{
+        padding-top: 7%;
+    }
+   .section1{
+    display: flex;
+    align-items: center;
+}
+.section1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.a1{
+    width: 70%;
+    text-align: center;
+}
+.aa2{
+    margin-top: 20%;
+    margin-bottom: 7%;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 6%;
+    margin-top: 7%;
+}
+.titulo{
+    width: 100%;
+    text-align: center;
+
+}
+.p1{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+.parrafo{
+    display: flex;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 17%;
+    width: 100%;
+}
+.a4{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+}
+.boton2{
+    display: flex;
+    text-align: center;
+    margin: 0;
+    margin-left: 10%;
+}
+.a4 h3{
+    display: flex;
+    text-align: center;
+    background: rgba(139, 72, 191, 0.3);  
+}
+.divcopado{
+    display: flex;
+    flex-direction: column;
+}
+.texto{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.divfinal{
+    display: flex;
+    flex-direction: column;
+}
+.hh{
+    width: 100%;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+      
+
+}
+      
+    
+
