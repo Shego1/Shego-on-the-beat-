@@ -5,6 +5,7 @@ font-family: 'Be Vietnam Pro', sans-serif;
 padding: 0%;
 margin: 0%;
 box-sizing: border-box;
+
 }
 
 .encabezado{
@@ -32,8 +33,10 @@ header nav ul li{
     padding: 0.7rem 1.6rem 0.7rem 1.6rem;
     -webkit-box-shadow: 4px 8px 29px -5px #616161; 
     box-shadow: 4px 8px 29px -5px #616161;
+
 }
-.a1{
+
+.a1{ 
     justify-content: space-around;
 }
 div section h2 {
@@ -56,7 +59,15 @@ section{
 }
 .a1{
     width: 26vw;
-    
+    margin-bottom: 10%;
+    text-align: center;
+}
+.section1 div h1{
+font-size: 40px;
+}
+
+.aa1{
+    padding-bottom: 10%;
 }
 .section1 div h1{
 font-size: 2.7rem;
@@ -84,7 +95,7 @@ nav ul li a{
     padding: 0.7rem 1.6rem 0.7rem 1.6rem;
     -webkit-box-shadow: 4px 8px 29px -5px #616161; 
     box-shadow: 4px 8px 29px -5px #616161;
-    margin-left: 24%;
+  
 }
 nav ul li a:hover{
     color: thistle;
@@ -117,10 +128,8 @@ margin-right: 8%;
     
 }
 .p1{
-    width: 60%;
-    padding-left: 6%;
-    margin-left: 36%;
-    padding-bottom: 2%;
+margin-left: 25%;
+margin-top: 3%;
 }
 .imagen{
     display: flex;
@@ -207,6 +216,8 @@ h3{
     cursor: pointer;
     background-color: #a05ad6;
     transition: all ease 110ms;
+    transform: scale(1.2);
+
    }
    .boton5:hover{
     cursor: pointer;
@@ -343,17 +354,20 @@ display: none;
     align-items: center;
     text-align: center;
     margin-right: 0;
+ 
+
 }
 .boton2{
     display: flex;
     text-align: center;
     margin: 0;
-    margin-left: 10%;
+  
 }
 .a4 h3{
     display: flex;
     text-align: center;
-    background: rgba(139, 72, 191, 0.3);  
+    background: #8b48bf5e; 
+    border-radius: 50px 0 0 50px;
 }
 .divcopado{
     display: flex;
@@ -374,14 +388,23 @@ display: none;
     text-align: center;
 }
 .footer{
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
-    align-items: center;
+   display: flex;
+  flex-wrap: wrap-reverse;
+}
+.footeremail{
+    text-align: center;
+
+}
+.carta:nth-child(odd){
+    display: none;
+}
+.footeremail{
+    display: none;
+}
+.footerboton{
+    display: none;
 }
 
-      
 
 }
       
